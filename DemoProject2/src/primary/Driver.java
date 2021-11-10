@@ -114,7 +114,8 @@ public class Driver{
 		Case 3: Split the following string and store it in a string array.
 		 “I am learning Core Java”
 		 */
-		Q14;
+		Q14 q14 = new Q14();
+		q14.switch();
 
 		/*
 		Q15. Write a program that defines an interface having the following
