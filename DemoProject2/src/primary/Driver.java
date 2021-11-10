@@ -91,7 +91,8 @@ public class Driver{
 		Print out all the even numbers from the array. Use the
 		enhanced FOR loop for printing out the numbers.
 		*/
-		Q12;
+		Q12 q12 = new Q12();
+		q12.EvenArray();
 
 		/*
 		Q13. 	Display the triangle on the console as follows using
