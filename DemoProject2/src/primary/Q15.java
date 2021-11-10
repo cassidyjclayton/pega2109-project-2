@@ -7,3 +7,15 @@ appropriate functionality to carry out the required operations.
 Hard code two operands in a test class having a main method
 that calls the implementing class.
 */
+public class Q15{
+    public void Interfaces() {
+
+        Q15_interface q15 = new Q15_implem();
+
+        Result(q15);
+    }
+
+    public void Result(Q15_interface q15) {
+        System.out.println(q15.addition(6, 59));
+    }
+}

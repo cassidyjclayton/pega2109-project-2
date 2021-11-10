@@ -9,6 +9,7 @@ public class Driver{
 		1,0,5,6,3,2,3,7,9,8,4
 		*/
 		Q1.BubbleSort();
+		System.out.println("\n");
 
 		/*
 		Q2. Write a program to display the first 25 Fibonacci
@@ -19,6 +20,7 @@ public class Driver{
 		*/
 		Q2 q2 = new Q2()
 		q2.Fibonacci(25);
+		System.out.println("\n");
 
 		/*
 		Q3. Requirements: Reverse a string without using a
@@ -27,10 +29,12 @@ public class Driver{
 		*/
 		Q3 q3 = new Q()
 		q3.reverse("Dungeons & Dragons");
+		System.out.println("\n");
 
 		// Q4. Write a program to compute N factorial.
 		Q4 q4 = new Q4();
 		q4.Factorial(15);
+		System.out.println("\n");
 
 		/*
 		Q5. Write a substring method that accepts a string str and an
@@ -39,9 +43,10 @@ public class Driver{
 		substring methods in the String, StringBuilder, or
 		StringBuffer APIs.
 		*/
-		Q5 subStr = new Q5;
+		Q5 subStr = new Q5();
 		subStr.SubString("Critical Role", 7);
 		subStr.subString("SpaceX", 5);
+		System.out.println("\n");
 
 		/*
 		Q6. Write a program to determine if an integer is even
@@ -49,6 +54,7 @@ public class Driver{
 		*/
 		Q6 even = new Q6();
 		even.isEven(26);
+		System.out.println("\n");
 
 		/*
 		Q7. Sort two employees based on their name, department, and age
@@ -56,6 +62,7 @@ public class Driver{
 		*/
 		Q7 q7 = new Q7();
 		q7.Compare();
+		System.out.println("\n");
 
 		/*
 		Q8. Write a program that stores the following strings in an
@@ -65,18 +72,22 @@ public class Driver{
 		*/
 		Q8 q8 = new Q8();
 		q8.Palindrome();
+		System.out.println("\n");
 
 		/*
 		Q9. Create an ArrayList which stores numbers from 1 to 100 and
 		prints out all the prime numbers to the console.
 		*/
-		Q9.Prime();
+		Q9 = new Q9();
+		q9.Prime();
+		System.out.println("\n");
 
 		/*
 		Q10. Find the minimum of two numbers using ternary operators.
 		*/
 		Q10 q10 = new Q10();
 		q10.Compare(8,9)
+		System.out.println("\n");
 
 		/*
 		 Q11. Write a program that would access two float-variables from a class that
@@ -85,6 +96,7 @@ public class Driver{
 		 */
 		Q11 q11 = new Q11();
 		System.out.println("F");
+		System.out.println("\n");
 
 		/*
 		Q12. Write a program to store numbers from 1 to 100 in an array.
@@ -93,6 +105,7 @@ public class Driver{
 		*/
 		Q12 q12 = new Q12();
 		q12.EvenArray();
+		System.out.println("\n");
 
 		/*
 		Q13. 	Display the triangle on the console as follows using
@@ -105,6 +118,7 @@ public class Driver{
 		*/
 		Q13 q13 = new Q13();
 		q13.triangle();
+		System.out.println("\n");
 
 		/*
 		Q14. Write a program that demonstrates the switch case. Implement
@@ -116,6 +130,7 @@ public class Driver{
 		 */
 		Q14 q14 = new Q14();
 		q14.switch();
+		System.out.println("\n");
 
 		/*
 		Q15. Write a program that defines an interface having the following
@@ -125,24 +140,29 @@ public class Driver{
 		Hard code two operands in a test class having a main method
 		that calls the implementing class.
 		*/
-		Q15;
+		Q15 q15 = new Q15() ;
+		System.out.println("Q15: ");
+		System.out.println("\n");
 
 		/*
 		Q16. Write a program to display the number of characters
 		for a string input. The string should be entered as
 		a command line argument using (String [ ] args).
 		*/
-		Q16;
+		Q16 q16 = new Q16();
+		q16.Q16(new String[]{"Take a chance--roll the dice"})
+		System.out.println("\n");
 
 		/*
 		Q17. Write a program that calculates the simple interest on
 		the principal, rate of interest and number of years
-		provided by the user. Enter principal, rate and time
+		provided by the user. Enter principal, ra     te and time
 		through the console using the Scanner class.
 
 		Interest = Principal* Rate* Time
 		*/
-		Q17;
+		Q17 q17 = new Q17()
+		System.out.println();;
 
 		/*
 		Q18. Write a program having a concrete ;subclass that inherits three
