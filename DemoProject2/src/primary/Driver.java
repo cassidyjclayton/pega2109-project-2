@@ -103,7 +103,8 @@ public class Driver{
 		      1 0 1
 		      0 1 0 1
 		*/
-		Q13;
+		Q13 q13 = new Q13();
+		q13.triangle();
 
 		/*
 		Q14. Write a program that demonstrates the switch case. Implement
