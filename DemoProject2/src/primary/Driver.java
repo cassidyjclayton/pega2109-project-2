@@ -83,7 +83,8 @@ public class Driver{
 		 exists in another package. Note, you will need to create two packages
 		 to demonstrate the solution.
 		 */
-		Q11;
+		Q11 q11 = new Q11();
+		System.out.println("F");
 
 		/*
 		Q12. Write a program to store numbers from 1 to 100 in an array.

@@ -4,11 +4,9 @@ package primary;
    exists in another package. Note, you will need to create two packages
    to demonstrate the solution.
    */
-   import JavaCoreHW.Q11AccessFromPackage.AnotherPackage.*;
+   import primary.Q11package.*;
 
-   public class AccessFrom {
-
-       public AccessFrom() { }
+   public class Q11 {
 
        public static void main(String[] args) {
            Variables numbers = new Variables();
