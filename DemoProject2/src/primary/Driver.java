@@ -161,8 +161,8 @@ public class Driver{
 
 		Interest = Principal* Rate* Time
 		*/
-		Q17 q17 = new Q17()
-		System.out.println();;
+		Q17 q17 = new Q17();
+		System.out.println("\n");
 
 		/*
 		Q18. Write a program having a concrete ;subclass that inherits three
@@ -181,6 +181,7 @@ public class Driver{
 		main method to test the above setup.
 		*/
 		Q18;
+		System.out.println("\n");
 
 		/*
 		Q19. Create an ArrayList and insert integers 1 through 10.
@@ -190,7 +191,8 @@ public class Driver{
 		ArrayList and print out the remaining ArrayList.
 		*/
 		Q19;
-
+		System.out.println("\n");
+		
 		/*
 		Create a notepad file called Data.txt and enter the following:
 
