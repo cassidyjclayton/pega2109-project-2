@@ -191,7 +191,8 @@ public class Driver{
 		display the result. Remove the prime numbers from the
 		ArrayList and print out the remaining ArrayList.
 		*/
-		Q19;
+		Q19 q19 = new Q19();
+		q19.arrayListPrimes();
 		System.out.println("\n");
 
 		/*
