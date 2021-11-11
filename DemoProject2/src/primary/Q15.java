@@ -10,12 +10,12 @@ that calls the implementing class.
 public class Q15{
     public void Interfaces() {
 
-        Q15_interface q15 = new Q15_implem();
+        q15Interface q15 = new q15Implementation();
 
         Result(q15);
     }
 
-    public void Result(Q15_interface q15) {
+    public void Result(q15Interface q15) {
         System.out.println(q15.addition(6, 59));
     }
 }
