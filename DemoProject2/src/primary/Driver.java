@@ -181,7 +181,9 @@ public class Driver{
 		result to the console. Create an appropriate class having a
 		main method to test the above setup.
 		*/
-		Q18;
+		Q18 q18 = new Q18();
+		System.out.println(q18.hasUppercaseLetter("hyello there"));
+		System.out.println(q18.hasUppercaseLetter("Dimension20"));
 		System.out.println("\n");
 
 		/*
