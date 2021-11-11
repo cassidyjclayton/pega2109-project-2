@@ -162,6 +162,7 @@ public class Driver{
 		Interest = Principal* Rate* Time
 		*/
 		Q17 q17 = new Q17();
+		q17.CalculateInterest();
 		System.out.println("\n");
 
 		/*
@@ -192,7 +193,7 @@ public class Driver{
 		*/
 		Q19;
 		System.out.println("\n");
-		
+
 		/*
 		Create a notepad file called Data.txt and enter the following:
 
