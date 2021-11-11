@@ -9,3 +9,4 @@ public class Q16 {
     System.out.println(s.length());
   }
 }
+// code from Anthony 'Tony' Patton
