@@ -206,7 +206,8 @@ public class Driver{
 		Age: 35 years
 		State: Arizona State
 		*/
-		Q20;
+		Q20 q20 = new Q20();
+		q20.loadData();
 
 
 
